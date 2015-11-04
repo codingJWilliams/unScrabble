@@ -1,3 +1,4 @@
 #select file location
-flocation = 'words'
+flocation = 'words.txt'
 file = open(flocation, 'r')
+print(file.readlines())
